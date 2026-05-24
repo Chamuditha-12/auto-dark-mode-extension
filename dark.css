@@ -1,0 +1,13 @@
+html {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+img,
+video,
+iframe,
+canvas,
+picture,
+svg image,
+[style*="background-image"] {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
